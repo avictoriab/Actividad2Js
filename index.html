@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <title>Ejercicio Javascript</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="title">Calculadora de Quincena</div>
+        <div class="content">
+          <form action="#" onsubmit="calcular()">
+            <div class="user-details">
+
+
+              <div class="input-box">
+                <span class="details">Nombre</span>
+                <input id="nombretxt" type="text" placeholder="Ingrese el nombre del empleado" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Apellido</span>
+                <input id="apellidotxt" type="text" placeholder="Ingrese el apellido del empleado" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Cedula</span>
+                <input id="cedulatxt" type="text" placeholder="Ingrese la cedula del empleado" required>
+              </div>
+              
+              <div class="input-box">
+                <span class="details">Número de horas diurnas en el mes</span>
+                <input id="horasdiurnastxt" type="number" placeholder="Ingrese el número de horas diurnas" required>
+              </div>
+
+              <div class="input-box">
+                <span class="details">Número de horas nocturnas en el mes</span>
+                <input id="horasnocturnastxt" type="number" placeholder="Ingrese el número de horas nocturnas" required>
+              </div>
+
+              <div class="input-box">
+                <span class="details">Número de horas vespertinas en el mes</span>
+                <input id="horasvespertinastxt" type="number" placeholder="Ingrese el número de horas vespertinas" required>
+              </div>
+
+
+             
+            
+            </div>
+            
+            <div class="button">
+              <input type="submit" value="Calcular">
+            </div>
+            <p>Datos Personales:</p>
+            <p id="resultado1"></p>
+            <br> 
+            <p>Sueldo quincenal sin Deduccion:</p>
+            <p id="resultado2"></p>
+            <br> 
+            <p>Descuento de Ahorro Habitacional:</p>
+            <p id="resultado3"></p>
+            <br> 
+            <p>Descuento de Seguro Social:</p>
+            <p id="resultado4"></p>
+            <br> 
+            <p>Sueldo quincenal con Deducción:</p>
+            <p id="resultado5"></p>
+          </form>
+        </div>
+      </div>
+      <br>
+      <br>
+      
+</body>
+</html>
